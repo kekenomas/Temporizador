@@ -1,0 +1,30 @@
+{
+   "pageTitle": "Mis Pruebas",
+   "tests": [
+     {
+       "subjectId": "INFO104-17",
+       "subjectName": "Taller de Construcción de Software",
+       "testDate": "2025-09-10 23:59:59"
+     },
+     {
+       "subjectId": "BAIN091-14",
+       "subjectName": "Estadística y Probabilidades para Ingeniería",
+       "testDate": "2025-10-10 17:30:00"
+     },
+     {
+       "subjectId": "INFO099-17",
+       "subjectName": "Estructuras Discretas",
+       "testDate": "2026-09-10 17:30:00"
+     },
+     {
+       "subjectId": "BAIN083-24",
+       "subjectName": "Cálculo en Varias Variables",
+       "testDate": "2025-09-18 17:30:00"
+     },
+     {
+      "subjectId": "KEKE01",
+      "subjectName": "Prueba ya expirada",
+      "testDate": "1-01-1 12:34:56"
+     }
+   ]
+ }

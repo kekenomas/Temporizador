@@ -1,0 +1,101 @@
+body {
+  background: #f8f9fa;
+  color: #555;
+  font-family: sans-serif,Arial;
+  padding: 1rem;
+}
+
+.page-container { /*contenedor de la pagina*/
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.page-content { /*organiza el contenido de manera vertical*/
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.page-title { /*titulo*/
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #e2a500;
+  padding: 0.5rem 1rem;
+  border-radius: 0.2rem;
+}
+
+.all-tests-block { /*bloque principal vertical para cada bloque interior*/
+  background: #ffffff;
+  border: 1px solid rgba(0,0,0,.075);
+  border-radius: 4px;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+.test-list { /*contenedor para las listas*/
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.test-card { /*tarjeta de cada prueba*/
+  padding: 0;
+  border: none;
+}
+
+.test-card:not(:first-child) { /*linea que divide los ramos*/
+  border-top: 1px solid rgba(0,0,0,.075);
+  padding-top: 1.5rem;
+}
+
+.test-card-content { /*contenedor interno de cada tarjeta*/
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.subject-name { /*nombre del ramo*/
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #555;
+  font-family: sans-serif;
+}
+
+.subject-id,
+.test-date {
+  font-size: 14px; /*fuente y separacion del codigo de ramo y info prueba*/
+  line-height: 25px;
+  color: #6c757d ;
+}
+
+.countdown-timer {
+  font-family: sans-serif;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.text-urgent {
+  color: #e36969;
+}
+
+.text-calm {
+  color: #53d382;
+}
+
+.no-tests-text {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #555;
+  font-family: sans-serif;
+}
+
+@media (min-width: 768px) { /*ayuda a que se adapte a las pantallas*/
+  .test-card-content {
+    flex-direction: row;
+    align-items: center;
+  }
+}

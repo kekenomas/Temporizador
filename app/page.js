@@ -85,7 +85,7 @@ export default function TestTimerPage() {
                 ))
               ) : (
                 <div className="no-tests-message">
-                  <p className="no-tests-text">Todo terminó...</p>
+                  <p className="no-tests-text">No hay pruebas proximas...</p>
                 </div>
               )}
             </div>
